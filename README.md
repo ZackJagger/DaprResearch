@@ -24,14 +24,14 @@ Ensure Dapr container is running by following Getting Started guide
   
 Run the following commands  
 
-> cd [RepoDirectory]/DaprResearch/DaprSubscriber
+> cd [RepoDirectory]/DaprResearch/DaprSubscriber  
 > dapr run --app-id DaprSubscriber --components-path ../../components --app-port 7001 -- dotnet run
 
-## Run Publisher Project
+### Run Publisher Project
 
 Ensure Dapr container is running by following Getting Started guide  
 
 Run the following commands
 
-> cd [RepoDirectory]/DaprResearch/DaprPublisher
+> cd [RepoDirectory]/DaprResearch/DaprPublisher  
 > dapr run --app-id DaprPublisher --components-path ../../components -- dotnet run
